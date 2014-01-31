@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Square Infinity Tech</title>
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link href="squareInfinityStylesheet.css" rel="stylesheet" type="text/css"/>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	
+	<script>	
+	
+
+	$(document).ready(function() {
+		$(".navbutton").hover(function() {
+			$(this).css('background-color','#494a4a');
+			$(this).css('color','#FFFFFF');
+		},function() {
+			$(this).css('background-color','transparent');
+			$(this).css('color','#000000');
+		});
+	});
+	</script>
+</head>
+
+<body>
+<div class="navbar">
+	<img src="images/SILOGOCropped.png" style="height:100px; float:right;"/>
+	<div class="navbutton" id="home">Home</div>	
+	<div class="navbutton" id="games" >About</div>
+	<div class="navbutton" id="photos" >Projects</div>
+</div>
+<div class="container">	
+	<img src="images/stretchLogo3.png" style = "display:block; margin-left:auto; margin-right:auto; width:inherit;"></img>
+	<div class="content" id="homeStuff" >
+	
+		<div class="headBar" style="background-color:#494A4A;">Home</div>
+		<div class="content">
+		<h1>Hey errbody this is a home page</h1>			
+		</div>
+	</div>
+	<div class="content" id="gameStuff">
+		<div class="headBar" style="background-color:#929292;">About</div>
+		<div class= 'content'>		
+			<h1>This is more stuff</h1>
+		</div>
+	</div>
+	<div class="content" id="photoStuff">
+		<div class="headBar" style="background-color:#B3B3B3;">Projects</div>
+		<div class="content">
+			<h1>Even more stuff, yo</h1>
+		</div>
+	</div>
+	<div class="footer">
+		<p>I am foot</p>
+	</div>
+</div>
+
+</body>
+</html>
+
+
